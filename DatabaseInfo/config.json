@@ -1,0 +1,16 @@
+{
+    "mysql":{
+        "host":"localhost",
+        "user":"webappmaster",
+        "passwd":"wap2021",
+        "db":"videogameindex_db"
+    },
+    "other":{
+        "preprocessing_queue":[
+            "preprocessing.scale_and_center",
+            "preprocessing.dot_reduction",
+            "preprocessing.connect_lines"
+            ],
+        "use_anonymous":true
+    }
+}
